@@ -17,7 +17,7 @@
    <children>
       <VBox fx:id="mainVBox" spacing="5.0">
          <children>
-            <HBox alignment="CENTER">
+            <HBox alignment="CENTER" maxHeight="-Infinity">
                <children>
                   <Label text="Algorithm:" />
                   <ComboBox fx:id="algorithmSelect" />
@@ -40,7 +40,7 @@
                   </ButtonBar>
                </children>
             </HBox>
-            <HBox alignment="CENTER">
+            <HBox alignment="CENTER" maxHeight="-Infinity">
                <children>
                   <ButtonBar>
                     <buttons>
